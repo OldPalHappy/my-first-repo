@@ -26,7 +26,7 @@ ul li {
   height: 40px;
   background: #fff;
   border-radius: 50%;
-  animation: grow 1.6s ease-in-out infinite;
+  animation: grow 2s ease-in-out infinite;
 }
 
 @keyframes grow {
@@ -76,4 +76,10 @@ ul li:nth-child(7) {
   animation-delay: -0.2s;
   background: #673ab7;
   box-shadow: 0 0 50px #673ab7;
+}
+
+ul li:nth-child(8) {
+  animation-delay: -0s;
+  background: #d204fc;
+  box-shadow: 0 0 50px #d204fc;
 }
